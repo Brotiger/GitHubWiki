@@ -1,0 +1,14 @@
+.up{
+    position: relative;
+    z-index: 9999;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    transition: all .1s ease;
+    padding-right: 13px;
+}
+.up i{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}

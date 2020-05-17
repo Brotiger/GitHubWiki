@@ -1,0 +1,28 @@
+pre{
+    white-space: pre-wrap;
+}
+#sidebarMenu ul li{
+    padding-left: 17px !important;
+}
+#sidebarMenu ul:first-of-type li{
+    padding-left: 0;
+}
+#sidebarMenu li ul{
+    display: none;
+}
+#sidebarMenu li{
+    position: relative;
+    cursor: pointer;
+}
+#sidebarMenu li:first-letter{
+    text-transform: capitalize;
+}
+#sidebarMenu li i{
+    position: absolute;
+    top:3px;
+    left: 0;
+}
+img{
+    max-width: 600px;
+    width: 100%;
+}

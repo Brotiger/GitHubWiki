@@ -5,7 +5,7 @@ class GetGitHub
     private $menu = "<nav id='sidebarMenu' class='col-md-3 col-lg-2 d-md-block bg-light sidebar collapse'><div class='sidebar-sticky pt-3'><ul class='px-3'>";
     private $raw_url = "https://raw.githubusercontent.com/";
     private $error = false;
-    private $time_hash = 2;
+    private $time_hash = 1;
     private $error_mess = 'Внутренняя ошибка. Не удалось соединиться с GitHub, информация уже передана админестратору';
     public function __construct($user_repo, $hash_url){
         $this->raw_url .= $user_repo."/master/";

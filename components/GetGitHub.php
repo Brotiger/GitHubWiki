@@ -53,10 +53,10 @@ class GetGitHub
                     $new_path_string = ('$this->file_arr'.$new_path_string."='".$file["path"]."';");
                     eval($new_path_string);
                     $name = str_replace(".".$info->getExtension(),"", $info->getFilename());
-                    $this->menu .= "<li><i class='far fa-file'></i><a class='file' href='". $this->raw_url.$file["path"]."'>".$name."</a></li>";
+                    $this->menu .= "<li><a class='file' href='". $this->raw_url.$file["path"]."'><i class='far fa-file'></i>".$name."</a></li>";
                     $i++;
                 }else{
-                    $this->menu .= "<li><i class='far fa-folder'></i><span>".$file["name"]."</span><ul>";
+                    $this->menu .= "<li><span><i class='far fa-folder'></i>".$file["name"]."</span><ul>";
                     $this->CreateMenu($file["_links"]["self"]);
                 }
                 

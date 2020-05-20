@@ -41,7 +41,7 @@
                     <div id="info" style="padding-bottom: 54px">
                     </div>
                 </main>
-                <footer  class="col-md-9 ml-sm-auto col-lg-10 text-center fixed-bottom py-3 border-top bg-light">
+                <footer  class="col-md-9 ml-sm-auto col-lg-10 text-left text-md-center fixed-bottom py-3 border-top bg-light">
                     <a href="https://vk.com/brotiger63" target="_blank">©Dmitry Berestnev</a>
                 </footer>
             </div>

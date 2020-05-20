@@ -20,13 +20,13 @@ $("#sidebarMenu li span").each(function(){
 $("#sidebarMenu li a").each(function(){
     $(this).on("click", function(){
         $("#sidebarMenu li a").each(function(){
-            $(this).prev('i').removeClass("fas");
-            $(this).prev('i').removeClass("fa-file-alt");
-            $(this).prev('i').addClass("far");
-            $(this).prev('i').addClass("fa-file");
+            $(this).children('i').removeClass("fas");
+            $(this).children('i').removeClass("fa-file-alt");
+            $(this).children('i').addClass("far");
+            $(this).children('i').addClass("fa-file");
         });
-        $(this).prev('i').addClass("fas");
-        $(this).prev('i').addClass("fa-file-alt");
+        $(this).children('i').addClass("fas");
+        $(this).children('i').addClass("fa-file-alt");
     });
 });
 });

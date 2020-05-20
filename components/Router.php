@@ -18,7 +18,7 @@ class Router
         foreach ($this->routes as $uriPattern => $path){
             if (preg_match("~$uriPattern~", $uri)){
                 if(!empty($uriPattern)){
-                     $internalRoute = preg_replace("~$uriPattern~",$path, $uri);//???
+                     $internalRoute = preg_replace("~$uriPattern~",$path, $uri);
                 }else{
                     $internalRoute = $path;
                 }
@@ -32,7 +32,6 @@ class Router
                 if(file_exists($controllerFile)){
                     include_once($controllerFile);
                 }
-                
                 $controllerObject = new $controllerName;
                 $result = $controllerObject->$actionName($parameters);
                 break;

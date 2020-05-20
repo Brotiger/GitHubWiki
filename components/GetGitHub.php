@@ -2,10 +2,10 @@
 class GetGitHub
 {
     private $file_arr = [];
-    private $menu = "<nav id='sidebarMenu' class='col-md-3 col-lg-2 d-md-block bg-light sidebar collapse'><div class='sidebar-sticky pt-3'><ul class='px-3'>";
+    private $menu = "<ul class='px-3'>";
     private $raw_url = "https://raw.githubusercontent.com/";
     private $error = false;
-    private $time_hash = 1;
+    private $time_hash = 24;
     private $error_mess = 'Внутренняя ошибка. Не удалось соединиться с GitHub, информация уже передана админестратору';
     public function __construct($user_repo, $hash_url){
         $this->raw_url .= $user_repo."/master/";
@@ -16,7 +16,6 @@ class GetGitHub
             $this->file_arr = $hash["file_arr"];
         }else{
             $this->CreateMenu("https://api.github.com/repos/".$user_repo."/contents/");
-            $this->menu .= "</ul></div></nav>";
             $new_hash = [
               "time_stamp" => time(),
               "file_arr" => $this->file_arr,
@@ -27,6 +26,7 @@ class GetGitHub
             fwrite($fp, $to_write);
             fclose($fp);
         }
+        $this->menu .= "</ul>";
     }
     private function CreateMenu($url){
         $ch = curl_init();
@@ -53,7 +53,7 @@ class GetGitHub
                     $new_path_string = ('$this->file_arr'.$new_path_string."='".$file["path"]."';");
                     eval($new_path_string);
                     $name = str_replace(".".$info->getExtension(),"", $info->getFilename());
-                    $this->menu .= "<li><i class='far fa-file'></i><a href='". $this->raw_url.$file["path"]."'>".$name."</a></li>";
+                    $this->menu .= "<li><i class='far fa-file'></i><a class='file' href='". $this->raw_url.$file["path"]."'>".$name."</a></li>";
                     $i++;
                 }else{
                     $this->menu .= "<li><i class='far fa-folder'></i><span>".$file["name"]."</span><ul>";

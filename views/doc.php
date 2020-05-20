@@ -18,7 +18,7 @@
           <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control form-control-dark w-100" type="text" placeholder="Поиск" aria-label="Search" id="search">
           <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
               <a class="nav-link" href="https://github.com/smile1601/SecurellaVM" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -27,8 +27,12 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <?php $menu->ShowMenu() ?>
-                <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pt-4">
+                <nav id='sidebarMenu' class='col-md-3 col-lg-2 d-md-block bg-light sidebar collapse'>
+                    <div class='sidebar-sticky pt-3 files_list'> 
+                        <?php $menu->ShowMenu() ?>
+                    </div>
+                </nav>
+                <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pt-4 files_list">
                     <div style="max-width: 950px" id="hello">
                         <h1>Добро пожаловать на TheOol - Wiki</h1>
                         <p>Данный сайт является базой знаний проекта и связан напрямую с <a href="https://github.com/smile1601/SecurellaVM" target="_blank">GitHub</a> репозиторией проекта, для просмотра документации выберете интересующий вас пункт в меню слева (сверху если вы зашли на сайт с мобильного телефона), или же воспользуйтесь системой поиска по сайту.</p>
@@ -48,5 +52,6 @@
     </body>
 </html>
 <script src="scripts/js/Ajax.js"></script>
+<script src="scripts/js/search.js"></script>
 <script src="scripts/js/Menu.js"></script>
 <script src="scripts/js/scroll.js"></script>

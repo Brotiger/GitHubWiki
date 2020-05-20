@@ -1,8 +1,9 @@
 $(document).ready(function() {
-        $("#sidebarMenu a").on("click", function(e){    
+        $(".files_list").on("click",".file", function(e){    
             $url = $(this).attr("href");
-            e.preventDefault();
-
+            $('html, body').animate({
+                scrollTop: $("#top").offset().top
+            }, 0);
                 $.ajax({
                     type: 'POST',
                     url: '/',
@@ -13,5 +14,7 @@ $(document).ready(function() {
                         $("#info").html(response);      
                     }
                 });
+            e.preventDefault();
+            return false;
         });
     });

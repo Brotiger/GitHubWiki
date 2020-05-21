@@ -1,13 +1,13 @@
 $(document).ready(function() {
 $("#sidebarMenu li span").each(function(){
         $(this).on("click", function(){
-            if($(this).prev("i").hasClass("fa-folder")){
-                $(this).prev("i").removeClass("fa-folder");
-                $(this).prev("i").addClass("fa-folder-open");
+            if($(this).children("i").hasClass("fa-folder")){
+                $(this).children("i").removeClass("fa-folder");
+                $(this).children("i").addClass("fa-folder-open");
 
             }else{
-                $(this).prev("i").removeClass("fa-folder-open");
-                $(this).prev("i").addClass("fa-folder");
+                $(this).children("i").removeClass("fa-folder-open");
+                $(this).children("i").addClass("fa-folder");
             }
            $(this).next('ul').slideToggle(500);
         });

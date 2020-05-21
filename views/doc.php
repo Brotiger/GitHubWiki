@@ -55,3 +55,4 @@
 <script src="scripts/js/search.js"></script>
 <script src="scripts/js/Menu.js"></script>
 <script src="scripts/js/scroll.js"></script>
+<script src="scripts/js/location.js"></script>

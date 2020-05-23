@@ -9,6 +9,11 @@
         <link rel="stylesheet" href="styles/default.css">
         <link rel="shortcut icon" href="images/theool_final_purple.png">
         <link rel="stylesheet" href="styles/b_up.css">
+        <meta property="og:title" content="TheOol - Wiki">
+        <meta property="og:site_name" content="TheOol - Wiki">
+        <meta property="og:url" content="http://wiki.theool.net/">
+        <meta property="og:description" content="База знаний проекта theool.net">
+        <meta property="og:image" content="images/social_network.png">
         <script src="https://kit.fontawesome.com/4f55501494.js" crossorigin="anonymous"></script>
     </head>
     <body id="top">

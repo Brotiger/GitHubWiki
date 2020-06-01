@@ -46,7 +46,9 @@
                     <div id="info" style="padding-bottom: 54px">
                     </div>
                 </main>
-                <footer  class="col-md-9 ml-sm-auto col-lg-10 text-left text-md-center fixed-bottom py-3 border-top bg-light">
+                <footer  class="col-md-9 ml-sm-auto col-lg-10 text-left text-sm-center fixed-bottom py-3 border-top bg-light">
+                    <a href="/Privacy.pdf" target="_blank" class="ml-1 ml-sm-0"><i class='far fa-file-alt'></i> Privacy Policy</a>
+                    <br>
                     <a href="https://vk.com/brotiger63" target="_blank">©Dmitry Berestnev</a>
                 </footer>
             </div>

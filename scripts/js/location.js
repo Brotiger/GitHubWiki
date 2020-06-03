@@ -13,3 +13,11 @@ $(document).ready(function(){
         $("#sidebarMenu > div > ul > li:nth-of-type(2) a")[0].click();
     }
 });
+/*
+        © 2020 Берестнев Дмитрий Дмитриевич 
+        Контактная информация:
+        VK: https://vk.com/brotiger63
+        mail: dimka@bdima.ru
+        GitHub: https://github.com/Brotiger
+        Telegram: @Brotiger63
+*/

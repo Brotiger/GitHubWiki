@@ -12,14 +12,14 @@ $("#sidebarMenu li span").each(function(){
            $(this).next('ul').slideToggle(500);
         });
     });
-    var button_arr = $("#sidebarMenu li a").each(function(){
+    var button_arr = $("#sidebarMenu li a.file").each(function(){
         $(this).on("click", function(){
             $("#sidebarMenu").removeClass("show");
         });
     });
-$("#sidebarMenu li a").each(function(){
+$("#sidebarMenu li a.file").each(function(){
     $(this).on("click", function(){
-        $("#sidebarMenu li a").each(function(){
+        $("#sidebarMenu li a.file").each(function(){
             $(this).children('i').removeClass("fas");
             $(this).children('i').removeClass("fa-file-alt");
             $(this).children('i').addClass("far");
@@ -30,3 +30,11 @@ $("#sidebarMenu li a").each(function(){
     });
 });
 });
+/*
+        © 2020 Берестнев Дмитрий Дмитриевич 
+        Контактная информация:
+        VK: https://vk.com/brotiger63
+        mail: dimka@bdima.ru
+        GitHub: https://github.com/Brotiger
+        Telegram: @Brotiger63
+*/

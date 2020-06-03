@@ -1,14 +1,22 @@
-.up{
+.b_up{
     position: relative;
     z-index: 9999;
     position: fixed;
     right: 20px;
-    bottom: 25px;
+    bottom: 15px;
     transition: all .1s ease;
     padding-right: 13px;
 }
-.up i{
+.b_up i{
     position: absolute;
     bottom: 5px;
     right: 0;
 }
+/*
+        © 2020 Берестнев Дмитрий Дмитриевич 
+        Контактная информация:
+        VK: https://vk.com/brotiger63
+        mail: dimka@bdima.ru
+        GitHub: https://github.com/Brotiger
+        Telegram: @Brotiger63
+*/

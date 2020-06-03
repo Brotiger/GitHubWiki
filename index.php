@@ -11,3 +11,11 @@ require_once(ROOT.'/components/Autoload.php');
 
 $router = new Router();
 $router->run();
+/*
+        © 2020 Берестнев Дмитрий Дмитриевич 
+        Контактная информация:
+        VK: https://vk.com/brotiger63
+        mail: dimka@bdima.ru
+        GitHub: https://github.com/Brotiger
+        Telegram: @Brotiger63
+*/

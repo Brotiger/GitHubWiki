@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="yandex-verification" content="d08fd4d2e238b96d" />
         <meta charset="utf-8">
         <title>TheOol - Wiki</title>
         <meta name="description" content="Данный сайт является базой знаний проекта TheOol и напрямую связан с GitHub репозиторией проекта">

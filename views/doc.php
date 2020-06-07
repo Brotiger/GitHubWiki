@@ -68,7 +68,7 @@
                     </div>
                 </main>
                 <footer  class="col-md-9 ml-sm-auto col-lg-10 text-left text-sm-center fixed-bottom py-3 v border-top bg-light">
-                    ©2018-2020 The OoL Project. All Rights Reserved.
+                    <div class="copyr">©2018-2020 The OoL Project</div>
                     <!--
                     © 2020 Берестнев Дмитрий Дмитриевич 
                     Контактная информация:

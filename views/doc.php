@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="google-site-verification" content="gqBkxexd9FtoAOFseqRtSCI7OVQY-z6FZk_Z4xj_xFM" />
         <meta name="yandex-verification" content="d08fd4d2e238b96d" />
         <meta charset="utf-8">
         <title>TheOol - Wiki</title>

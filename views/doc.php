@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>TheOol - Wiki</title>
+        <meta name="description" content="Данный сайт является базой знаний проекта TheOol и напрямую связан с GitHub репозиторией проекта">
+        <meta name="Keywords" content="TheOol wiki, TheOol, The oracle of liberty, TheOol база знаний проекта, The oracle of liberty база знаний проекта, TheOol документация, TheOol инвесторам, TheOol экономика, The oracle of liberty документация, The oracle of liberty инвесторам, The oracle of liberty экономика, TheOol documentation, TheOol economy, TheOol for investors, The oracle of liberty documentation, The oracle of liberty documentation, The oracle of liberty economy, The oracle of liberty for investors">
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -21,7 +23,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/dashboard.css">
         <link rel="stylesheet" href="styles/default.css">
-        <link rel="shortcut icon" href="images/theool_final_purple.png">
+        <link rel="shortcut icon" href="images/theool_final_purple.webp">
         <link rel="stylesheet" href="styles/b_up.css">
         <meta property="og:title" content="TheOol - Wiki">
         <meta property="og:site_name" content="TheOol - Wiki">
@@ -66,7 +68,7 @@
                     </div>
                 </main>
                 <footer  class="col-md-9 ml-sm-auto col-lg-10 text-left text-sm-center fixed-bottom py-3 v border-top bg-light">
-                    <a href="https://vk.com/brotiger63" target="_blank">Web Design by BroTiger 2020</a>
+                    ©2018-2020 The OoL Project. All Rights Reserved.
                     <!--
                     © 2020 Берестнев Дмитрий Дмитриевич 
                     Контактная информация:
